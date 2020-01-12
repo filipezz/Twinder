@@ -1,0 +1,19 @@
+// ADD YOUR OWN KEYS AND RENAME THIS FILE TO keys.js
+const TWITTER_TOKENS = {
+  TWITTER_CONSUMER_KEY: "6OAHo6nAZPoBIVwst2THXjgDU",
+  TWITTER_CONSUMER_SECRET: "X06UiawuRkdZnWtkF7M8F4poOZZnnwxqHlyG1eoKLfPgX6tEnZ",
+  TWITTER_ACCESS_TOKEN: "96197722-TsgtTXzdsyjLcRrUNnxViiCywIao3SAh3ftcyIZ97",
+  TWITTER_TOKEN_SECRET: "aT0CVUzmVryXRElEAgAGWBUX9RzVaZweh51pKrFbLmicA"
+};
+
+const SESSION = {
+  COOKIE_KEY: "thisappisawesome"
+};
+
+const KEYS = {
+  ...TWITTER_TOKENS,
+
+  ...SESSION
+};
+
+module.exports = KEYS;
